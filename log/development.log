@@ -18,3 +18,209 @@ Migrating to CreateCourses (20230924195900)
   [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-09-24 19:59:26.384049"], ["updated_at", "2023-09-24 19:59:26.384049"]]
   [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2023-09-25 15:05:31 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 333)
+  Rendered layout layouts/application.html.erb (Duration: 157.0ms | Allocations: 17324)
+Completed 500 Internal Server Error in 163ms (ActiveRecord: 0.0ms | Allocations: 20679)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap-sass/assets/stylesheets/bootstrap-sprockets.
+        on line 5:1 of app/assets/stylesheets/application.css.scss
+>> @import "bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
+
+   ^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    12:   </head>
+  
+app/assets/stylesheets/application.css.scss:5
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-09-25 15:06:15 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 333)
+  Rendered layout layouts/application.html.erb (Duration: 178.1ms | Allocations: 16727)
+Completed 500 Internal Server Error in 190ms (ActiveRecord: 0.0ms | Allocations: 20082)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap-sass/assets/stylesheets/bootstrap-sprockets.
+        on line 5:1 of app/assets/stylesheets/application.css.scss
+>> @import "bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
+
+   ^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    12:   </head>
+  
+app/assets/stylesheets/application.css.scss:5
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-09-25 15:06:59 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 333)
+  Rendered layout layouts/application.html.erb (Duration: 149.1ms | Allocations: 16820)
+Completed 500 Internal Server Error in 155ms (ActiveRecord: 0.0ms | Allocations: 20175)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap-sass/assets/stylesheets/bootstrap.
+        on line 6:1 of app/assets/stylesheets/application.css.scss
+>> @import "bootstrap-sass/assets/stylesheets/bootstrap";
+
+   ^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    12:   </head>
+  
+app/assets/stylesheets/application.css.scss:6
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-09-25 15:07:22 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 181.7ms | Allocations: 15514)
+Completed 500 Internal Server Error in 191ms (ActiveRecord: 0.0ms | Allocations: 16330)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap-sass/assets/stylesheets/bootstrap-sprockets.
+        on line 5:1 of app/assets/stylesheets/application.css.scss
+>> @import "bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
+
+   ^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    12:   </head>
+  
+app/assets/stylesheets/application.css.scss:5
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-09-25 15:09:27 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 333)
+  Rendered layout layouts/application.html.erb (Duration: 3009.7ms | Allocations: 227042)
+Completed 500 Internal Server Error in 3015ms (ActiveRecord: 0.0ms | Allocations: 230397)
+
+
+  
+ActionView::Template::Error (undefined method `stylesheet_pack_tag' for #<ActionView::Base:0x0000000000c7b0>
+
+    '.freeze;@output_buffer.append=( stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' );@output_buffer.safe_append='
+                                     ^^^^^^^^^^^^^^^^^^^
+Did you mean?  stylesheet_path
+               stylesheet_link_tag):
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/application.html.erb:11
+Started GET "/" for ::1 at 2023-09-25 15:10:18 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 333)
+  Rendered layout layouts/application.html.erb (Duration: 90.7ms | Allocations: 59958)
+Completed 200 OK in 97ms (Views: 92.6ms | ActiveRecord: 0.0ms | Allocations: 63362)
+
+
+Started GET "/" for ::1 at 2023-09-25 15:11:27 +0300
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.haml within layouts/application
+  Rendered courses/index.html.haml within layouts/application (Duration: 10.1ms | Allocations: 23832)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 39311)
+Completed 200 OK in 25ms (Views: 22.5ms | Allocations: 40925)
+
+
+Started GET "/" for ::1 at 2023-09-25 15:12:11 +0300
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.haml within layouts/application
+  Rendered courses/index.html.haml within layouts/application (Duration: 1.2ms | Allocations: 66)
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 9057)
+Completed 200 OK in 25ms (Views: 23.7ms | Allocations: 9368)
+
+
+Started GET "/courses" for ::1 at 2023-09-25 15:12:44 +0300
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.haml within layouts/application
+  Rendered courses/index.html.haml within layouts/application (Duration: 0.9ms | Allocations: 66)
+  Rendered layout layouts/application.html.erb (Duration: 56.1ms | Allocations: 9166)
+Completed 200 OK in 58ms (Views: 56.5ms | Allocations: 9428)
+
+
+Started GET "/courses" for ::1 at 2023-09-25 15:12:46 +0300
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.haml within layouts/application
+  Rendered courses/index.html.haml within layouts/application (Duration: 0.3ms | Allocations: 66)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 9106)
+Completed 200 OK in 18ms (Views: 17.1ms | Allocations: 9367)
+
+
+Started GET "/courses" for ::1 at 2023-09-25 15:13:36 +0300
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.haml within layouts/application
+  Rendered courses/index.html.haml within layouts/application (Duration: 15.3ms | Allocations: 18525)
+  Rendered layout layouts/application.html.erb (Duration: 28.2ms | Allocations: 34330)
+Completed 200 OK in 31ms (Views: 28.9ms | Allocations: 36042)
+
+
+Started GET "/" for ::1 at 2023-09-25 15:13:40 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (Duration: 15.4ms | Allocations: 18537)
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 27791)
+Completed 200 OK in 26ms (Views: 25.2ms | Allocations: 28535)
+
+
+Started GET "/" for ::1 at 2023-09-25 15:15:38 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (Duration: 11.0ms | Allocations: 5922)
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 15353)
+Completed 200 OK in 37ms (Views: 30.3ms | Allocations: 16196)
+
+
