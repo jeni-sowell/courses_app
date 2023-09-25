@@ -224,3 +224,24 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 37ms (Views: 30.3ms | Allocations: 16196)
 
 
+Started GET "/courses" for ::1 at 2023-09-25 15:18:39 +0300
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.haml within layouts/application
+  [1m[36mCourse Load (0.3ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.html.haml:13
+  Rendered courses/index.html.haml within layouts/application (Duration: 56.9ms | Allocations: 7584)
+  Rendered layout layouts/application.html.erb (Duration: 131.5ms | Allocations: 18785)
+Completed 200 OK in 154ms (Views: 137.9ms | ActiveRecord: 4.7ms | Allocations: 19452)
+
+
+Started GET "/courses/new" for ::1 at 2023-09-25 15:18:42 +0300
+Processing by CoursesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/new.html.haml within layouts/application
+  Rendered courses/_form.html.haml (Duration: 82.3ms | Allocations: 32933)
+  Rendered courses/new.html.haml within layouts/application (Duration: 84.1ms | Allocations: 35607)
+  Rendered layout layouts/application.html.erb (Duration: 90.1ms | Allocations: 44694)
+Completed 200 OK in 116ms (Views: 90.4ms | ActiveRecord: 0.4ms | Allocations: 54386)
+
+

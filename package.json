@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "JeniSowell <jeni@sowellapp.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@rails/actiontext": "^7.0.8",
+    "trix": "^2.0.6"
+  }
 }
