@@ -1,0 +1,7 @@
+{
+  "name": "MyStore",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "JeniSowell <jeni@sowellapp.com>",
+  "license": "MIT"
+}
