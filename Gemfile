@@ -36,6 +36,9 @@ gem 'bootstrap-sass'
 gem 'sassc-rails'
 gem 'jquery-rails'
 gem "font-awesome-sass", "~> 6.4.2"
+gem 'faker'
+gem 'devise'
+
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
@@ -76,3 +79,5 @@ group :test do
 end
 gem "haml-rails", "~> 2.0"
 gem 'simple_form'
+gem 'html2haml'
+

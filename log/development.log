@@ -607,3 +607,119 @@ Processing by CoursesController#create as TURBO_STREAM
 Completed 422 Unprocessable Entity in 47ms (Views: 35.6ms | ActiveRecord: 0.0ms | Allocations: 20506)
 
 
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (1.0ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Communications 595"], ["description", "Laughter is poison to fear."], ["created_at", "2023-09-26 12:41:53.912535"], ["updated_at", "2023-09-26 12:41:53.912535"]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Applied Science (Psychology) 190"], ["description", "Laughter is poison to fear."], ["created_at", "2023-09-26 12:41:53.917035"], ["updated_at", "2023-09-26 12:41:53.917035"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Design 464"], ["description", "Knowledge could be more valuable than gold, more deadly than a dagger."], ["created_at", "2023-09-26 12:41:53.918424"], ["updated_at", "2023-09-26 12:41:53.918424"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Medicine 339"], ["description", "The things I do for love."], ["created_at", "2023-09-26 12:41:53.919758"], ["updated_at", "2023-09-26 12:41:53.919758"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Law 584"], ["description", "All dwarfs are bastards in their father's eyes"], ["created_at", "2023-09-26 12:41:53.921108"], ["updated_at", "2023-09-26 12:41:53.921108"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Biological Science 489"], ["description", "Why is it that when one man builds a wall, the next man immediately needs to know what's on the other side?"], ["created_at", "2023-09-26 12:41:53.922480"], ["updated_at", "2023-09-26 12:41:53.922480"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.2ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Law 185"], ["description", "Why is it that when one man builds a wall, the next man immediately needs to know what's on the other side?"], ["created_at", "2023-09-26 12:41:53.923782"], ["updated_at", "2023-09-26 12:41:53.923782"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.3ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Criminology 257"], ["description", "A lion doesn't concern itself with the opinion of sheep."], ["created_at", "2023-09-26 12:41:53.925257"], ["updated_at", "2023-09-26 12:41:53.925257"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Information Systems 184"], ["description", "And so he spoke, and so he spoke, that Lord of Castamere, but now the rains weep o'er his hall, with no one there to hear. Yes, now the rains weep o'er his hall, and not a soul to hear."], ["created_at", "2023-09-26 12:41:53.926897"], ["updated_at", "2023-09-26 12:41:53.926897"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Forensic Science 418"], ["description", "And I have a tender spot in my heart for cripples and bastards and broken things."], ["created_at", "2023-09-26 12:41:53.928347"], ["updated_at", "2023-09-26 12:41:53.928347"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.2ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Education 516"], ["description", "Never forget who you are. The rest of the world won't. Wear it like an armor and it can never be used against you."], ["created_at", "2023-09-26 12:41:53.929764"], ["updated_at", "2023-09-26 12:41:53.929764"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Applied Science (Psychology) 110"], ["description", "A lion doesn't concern itself with the opinion of sheep."], ["created_at", "2023-09-26 12:41:53.931550"], ["updated_at", "2023-09-26 12:41:53.931550"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Creative Arts 261"], ["description", "Give me honorable enemies rather than ambitious ones, and I'll sleep more easily by night."], ["created_at", "2023-09-26 12:41:53.933010"], ["updated_at", "2023-09-26 12:41:53.933010"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Education 347"], ["description", "Winter is coming."], ["created_at", "2023-09-26 12:41:53.934480"], ["updated_at", "2023-09-26 12:41:53.934480"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Medicine 490"], ["description", "All dwarfs are bastards in their father's eyes"], ["created_at", "2023-09-26 12:41:53.935835"], ["updated_at", "2023-09-26 12:41:53.935835"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.2ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Health Science 316"], ["description", "A lion doesn't concern itself with the opinion of sheep."], ["created_at", "2023-09-26 12:41:53.937466"], ["updated_at", "2023-09-26 12:41:53.937466"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.6ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Health Science 148"], ["description", "Knowledge could be more valuable than gold, more deadly than a dagger."], ["created_at", "2023-09-26 12:41:53.938974"], ["updated_at", "2023-09-26 12:41:53.938974"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.3ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Criminology 571"], ["description", "The North remembers."], ["created_at", "2023-09-26 12:41:53.940780"], ["updated_at", "2023-09-26 12:41:53.940780"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Business 485"], ["description", "Never forget who you are. The rest of the world won't. Wear it like an armor and it can never be used against you."], ["created_at", "2023-09-26 12:41:53.948303"], ["updated_at", "2023-09-26 12:41:53.948303"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Creative Arts 330"], ["description", "Once you’ve accepted your flaws, no one can use them against you."], ["created_at", "2023-09-26 12:41:53.949755"], ["updated_at", "2023-09-26 12:41:53.949755"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Teaching 127"], ["description", "All dwarfs are bastards in their father's eyes"], ["created_at", "2023-09-26 12:41:53.951152"], ["updated_at", "2023-09-26 12:41:53.951152"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Psychology 213"], ["description", "Knowledge could be more valuable than gold, more deadly than a dagger."], ["created_at", "2023-09-26 12:41:53.952834"], ["updated_at", "2023-09-26 12:41:53.952834"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Teaching 158"], ["description", "Never forget who you are. The rest of the world won't. Wear it like an armor and it can never be used against you."], ["created_at", "2023-09-26 12:41:53.954424"], ["updated_at", "2023-09-26 12:41:53.954424"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Health Science 315"], ["description", "Do the dead frighten you?"], ["created_at", "2023-09-26 12:41:53.956067"], ["updated_at", "2023-09-26 12:41:53.956067"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Criminology 323"], ["description", "Things are not always as they seemed, much that may seem evil can be good."], ["created_at", "2023-09-26 12:41:53.957547"], ["updated_at", "2023-09-26 12:41:53.957547"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Commerce 363"], ["description", "Do the dead frighten you?"], ["created_at", "2023-09-26 12:41:53.958970"], ["updated_at", "2023-09-26 12:41:53.958970"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.5ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Medicine 196"], ["description", "Laughter is poison to fear."], ["created_at", "2023-09-26 12:41:53.960325"], ["updated_at", "2023-09-26 12:41:53.960325"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Design 196"], ["description", "When you play a game of thrones you win or you die."], ["created_at", "2023-09-26 12:41:53.962047"], ["updated_at", "2023-09-26 12:41:53.962047"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.3ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Health Science 191"], ["description", "Do the dead frighten you?"], ["created_at", "2023-09-26 12:41:53.963387"], ["updated_at", "2023-09-26 12:41:53.963387"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCourse Create (0.1ms)[0m  [1m[32mINSERT INTO "courses" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Information Systems 156"], ["description", "Some old wounds never truly heal, and bleed again at the slightest word."], ["created_at", "2023-09-26 12:41:53.964871"], ["updated_at", "2023-09-26 12:41:53.964871"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/courses" for ::1 at 2023-09-26 15:42:17 +0300
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.haml within layouts/application
+  [1m[36mCourse Load (0.5ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.html.haml:13
+  Rendered courses/index.html.haml within layouts/application (Duration: 50.5ms | Allocations: 11877)
+  Rendered layout layouts/application.html.erb (Duration: 71.3ms | Allocations: 21605)
+Completed 200 OK in 86ms (Views: 73.9ms | ActiveRecord: 1.8ms | Allocations: 21947)
+
+
+Started GET "/courses" for ::1 at 2023-09-26 15:43:35 +0300
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.haml within layouts/application
+  [1m[36mCourse Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "courses"[0m
+  ↳ app/views/courses/index.html.haml:3
+  [1m[36mCourse Load (2.3ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.html.haml:15
+  Rendered courses/index.html.haml within layouts/application (Duration: 31.7ms | Allocations: 12871)
+  Rendered layout layouts/application.html.erb (Duration: 53.2ms | Allocations: 23127)
+Completed 200 OK in 66ms (Views: 60.7ms | ActiveRecord: 2.5ms | Allocations: 23973)
+
+
