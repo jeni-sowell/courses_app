@@ -3075,3 +3075,147 @@ Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-09-30 19
   
 ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
   
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to RolifyCreateRoles (20230930165142)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "roles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "resource_type" varchar, "resource_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE INDEX "index_roles_on_resource" ON "roles" ("resource_type", "resource_id")[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "users_roles" ("user_id" integer, "role_id" integer)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE INDEX "index_users_roles_on_user_id" ON "users_roles" ("user_id")[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE INDEX "index_users_roles_on_role_id" ON "users_roles" ("role_id")[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE INDEX "index_roles_on_name" ON "roles" ("name")[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE INDEX "index_roles_on_name_and_resource_type_and_resource_id" ON "roles" ("name", "resource_type", "resource_id")[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE INDEX "index_users_roles_on_user_id_and_role_id" ON "users_roles" ("user_id", "role_id")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230930165142"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users/sign_in" for ::1 at 2023-09-30 19:56:49 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2048.1ms | Allocations: 185283)
+  Rendered layout layouts/application.html.haml (Duration: 2048.3ms | Allocations: 185393)
+Completed 500 Internal Server Error in 2248ms (ActiveRecord: 0.5ms | Allocations: 479755)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap/scss/bootstrap.
+        on line 1:1 of app/assets/stylesheets/application.bootstrap.scss
+>> @import 'bootstrap/scss/bootstrap';  
+
+   ^
+):
+  
+app/assets/stylesheets/application.bootstrap.scss:1
+Started GET "/users/sign_in" for ::1 at 2023-09-30 20:19:08 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 89.9ms | Allocations: 47080)
+  Rendered layout layouts/application.html.haml (Duration: 90.0ms | Allocations: 47169)
+Completed 500 Internal Server Error in 131ms (ActiveRecord: 2.6ms | Allocations: 53802)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap/scss/bootstrap.
+        on line 1:1 of app/assets/stylesheets/application.bootstrap.scss
+>> @import 'bootstrap/scss/bootstrap';  
+
+   ^
+):
+  
+app/assets/stylesheets/application.bootstrap.scss:1
+Started GET "/users/sign_in" for ::1 at 2023-09-30 20:53:01 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 746)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 795.1ms | Allocations: 141122)
+  Rendered layouts/_messages.html.haml (Duration: 3.3ms | Allocations: 5971)
+  Rendered layout layouts/application.html.haml (Duration: 808.0ms | Allocations: 163299)
+Completed 200 OK in 1002ms (Views: 979.9ms | ActiveRecord: 0.2ms | Allocations: 455406)
+
+
+Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-09-30 20:53:02 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
+  
+Started GET "/users/sign_in" for ::1 at 2023-09-30 20:54:56 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 132)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1411.5ms | Allocations: 91433)
+  Rendered layouts/_messages.html.haml (Duration: 0.0ms | Allocations: 26)
+  Rendered layout layouts/application.html.haml (Duration: 1415.6ms | Allocations: 95926)
+Completed 200 OK in 1426ms (Views: 1416.7ms | ActiveRecord: 0.0ms | Allocations: 96658)
+
+
+Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-09-30 20:54:57 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
+  
+Started GET "/users/sign_in" for ::1 at 2023-09-30 21:02:00 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 544)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 87.2ms | Allocations: 28578)
+  Rendered layouts/_messages.html.haml (Duration: 5.1ms | Allocations: 5815)
+  Rendered layout layouts/application.html.haml (Duration: 111.3ms | Allocations: 45129)
+Completed 200 OK in 158ms (Views: 143.5ms | ActiveRecord: 0.0ms | Allocations: 46632)
+
+
+Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-09-30 21:02:01 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
+  
+Started GET "/users/sign_in" for ::1 at 2023-09-30 21:09:11 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 92.3ms | Allocations: 27517)
+  Rendered layouts/_messages.html.haml (Duration: 0.0ms | Allocations: 20)
+  Rendered layout layouts/application.html.haml (Duration: 105.2ms | Allocations: 31938)
+Completed 200 OK in 132ms (Views: 111.0ms | ActiveRecord: 0.0ms | Allocations: 32600)
+
+
+Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-09-30 21:09:11 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
+  
+Started GET "/users/sign_in" for ::1 at 2023-09-30 21:12:05 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1669.4ms | Allocations: 91156)
+  Rendered layouts/_messages.html.haml (Duration: 0.0ms | Allocations: 20)
+  Rendered layout layouts/application.html.haml (Duration: 1677.3ms | Allocations: 95629)
+Completed 200 OK in 1693ms (Views: 1678.5ms | ActiveRecord: 0.0ms | Allocations: 96210)
+
+
+Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-09-30 21:12:06 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
+  
+Started GET "/users/sign_in" for ::1 at 2023-09-30 21:16:52 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 2.0ms | Allocations: 544)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 109.0ms | Allocations: 28538)
+  Rendered layouts/_header.html.haml (Duration: 21.8ms | Allocations: 17182)
+  Rendered layouts/_messages.html.haml (Duration: 7.8ms | Allocations: 5806)
+  Rendered layout layouts/application.html.haml (Duration: 164.9ms | Allocations: 62598)
+Completed 200 OK in 225ms (Views: 204.7ms | ActiveRecord: 0.0ms | Allocations: 64070)
+
+
+Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-09-30 21:16:53 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
+  

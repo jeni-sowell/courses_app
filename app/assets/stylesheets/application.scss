@@ -2,3 +2,75 @@
 @import "bootstrap-sprockets";
 @import "font-awesome";
 // @import 'actiontext.css';
+/* Navbar container */
+.navbar {
+  background-color: #f8f9fa; // Background color
+}
+
+/* Navbar links */
+.navbar-nav li.nav-item {
+  margin-right: 15px; // Margin between nav items
+  // Customize link styles
+  a.nav-link {
+    color: #333; // Text color
+    // Add more styles as needed
+  }
+}
+
+/* Navbar links - Active state */
+.navbar-nav li.nav-item.active a.nav-link {
+  color: #fff; // Text color
+  background-color: #007bff; // Background color
+}
+
+/* Navbar links - Hover state */
+.navbar-nav li.nav-item a.nav-link:hover {
+  color: #fff; // Text color
+  background-color: #0056b3; // Background color
+}
+
+/* Navbar brand */
+.navbar-brand {
+  color: #333; // Brand text color
+}
+
+/* Toggle button icon */
+.navbar-toggler-icon {
+  background-color: #333; // Toggle button icon color
+}
+
+/* Navbar Toggle Button - Background color */
+.navbar-toggler {
+  background-color: #fff; // Toggle button background color
+}
+
+/* Navbar Toggle Button - Border color */
+.navbar-toggler {
+  border-color: #fff; // Toggle button border color
+}
+
+/* Navbar Toggle Button - Focus color */
+.navbar-toggler:focus {
+  box-shadow: none; // Toggle button focus box shadow
+}
+
+/* Navbar Toggle Button - Hover color */
+.navbar-toggler:hover {
+  background-color: #ccc; // Toggle button hover background color
+  border-color: #ccc; // Toggle button hover border color
+}
+
+/* Navbar Dropdown Menu - Background color */
+.dropdown-menu {
+  background-color: #fff; // Dropdown menu background color
+}
+
+/* Navbar Dropdown Menu - Link color */
+.dropdown-menu a.dropdown-item {
+  color: #333; // Dropdown menu link color
+}
+
+/* Navbar Dropdown Menu - Hover color */
+.dropdown-menu a.dropdown-item:hover {
+  background-color: #f8f9fa; // Dropdown menu link hover background color
+}
