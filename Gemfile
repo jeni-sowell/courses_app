@@ -32,10 +32,8 @@ gem "redis", "~> 4.0"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
-gem 'bootstrap-sass', '~> 3.3.7'
-gem 'bootstrap_form'
-gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
-gem 'sassc-rails'
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
 gem 'jquery-rails'
 gem "font-awesome-sass", "~> 6.4.2"
 gem 'faker'

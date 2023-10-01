@@ -3219,3 +3219,315 @@ Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-09-30 21
   
 ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
   
+Started GET "/users/sign_in" for ::1 at 2023-10-01 16:44:20 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 3.4ms | Allocations: 562)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 114.2ms | Allocations: 28591)
+  Rendered layouts/_header.html.haml (Duration: 14.1ms | Allocations: 17150)
+  Rendered layouts/_messages.html.haml (Duration: 4.8ms | Allocations: 5810)
+  Rendered layout layouts/application.html.haml (Duration: 198.1ms | Allocations: 62609)
+Completed 200 OK in 232ms (Views: 206.3ms | ActiveRecord: 6.2ms | Allocations: 66566)
+
+
+Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-10-01 16:44:21 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
+  
+Started GET "/users/sign_in" for ::1 at 2023-10-01 16:47:14 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 928.9ms | Allocations: 35274)
+  Rendered layout layouts/application.html.haml (Duration: 929.5ms | Allocations: 35353)
+Completed 500 Internal Server Error in 963ms (ActiveRecord: 0.0ms | Allocations: 36006)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$prefix".
+        on line 13:35 of app/assets/stylesheets/application.scss
+>>   --#{$prefix}nav-link-padding-x: #{$nav-link-padding-x};
+
+   ----------------------------------^
+):
+    1: <%= stylesheet_link_tag 'application' %>
+    2: <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+    3:   <div class="form-inputs">
+    4:     <%= f.input :email,
+  
+app/assets/stylesheets/application.scss:13
+app/views/devise/sessions/new.html.erb:1
+Started GET "/users/sign_in" for ::1 at 2023-10-01 16:53:27 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1754.9ms | Allocations: 91137)
+  Rendered layouts/_header.html.haml (Duration: 0.0ms | Allocations: 12)
+  Rendered layouts/_messages.html.haml (Duration: 0.0ms | Allocations: 20)
+  Rendered layout layouts/application.html.haml (Duration: 1767.3ms | Allocations: 95677)
+Completed 200 OK in 1807ms (Views: 1772.4ms | ActiveRecord: 0.0ms | Allocations: 96279)
+
+
+Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-10-01 16:53:29 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
+  
+Started GET "/users/sign_in" for ::1 at 2023-10-01 16:53:56 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 53.0ms | Allocations: 27434)
+  Rendered layouts/_header.html.haml (Duration: 0.1ms | Allocations: 12)
+  Rendered layouts/_messages.html.haml (Duration: 0.0ms | Allocations: 20)
+  Rendered layout layouts/application.html.haml (Duration: 63.4ms | Allocations: 31923)
+Completed 200 OK in 70ms (Views: 64.3ms | ActiveRecord: 0.0ms | Allocations: 32519)
+
+
+Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-10-01 16:53:56 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
+  
+Started GET "/users/sign_in" for ::1 at 2023-10-01 16:54:02 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 746.9ms | Allocations: 35191)
+  Rendered layout layouts/application.html.haml (Duration: 747.3ms | Allocations: 35270)
+Completed 500 Internal Server Error in 755ms (ActiveRecord: 0.0ms | Allocations: 35841)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$prefix".
+        on line 13:35 of app/assets/stylesheets/application.scss
+>>   --#{$prefix}nav-link-padding-x: #{$nav-link-padding-x};
+
+   ----------------------------------^
+):
+    1: <%= stylesheet_link_tag 'application' %>
+    2: <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+    3:   <div class="form-inputs">
+    4:     <%= f.input :email,
+  
+app/assets/stylesheets/application.scss:13
+app/views/devise/sessions/new.html.erb:1
+Started GET "/users/sign_in" for ::1 at 2023-10-01 16:54:14 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1355.9ms | Allocations: 90925)
+  Rendered layouts/_header.html.haml (Duration: 0.0ms | Allocations: 12)
+  Rendered layouts/_messages.html.haml (Duration: 0.0ms | Allocations: 20)
+  Rendered layout layouts/application.html.haml (Duration: 1361.7ms | Allocations: 95466)
+Completed 200 OK in 1365ms (Views: 1362.4ms | ActiveRecord: 0.0ms | Allocations: 96070)
+
+
+Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-10-01 16:54:16 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
+  
+Started GET "/users/sign_in" for ::1 at 2023-10-01 17:03:41 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 120.7ms | Allocations: 27422)
+  Rendered layouts/_header.html.haml (Duration: 0.4ms | Allocations: 12)
+  Rendered layouts/_messages.html.haml (Duration: 0.0ms | Allocations: 20)
+  Rendered layout layouts/application.html.haml (Duration: 132.3ms | Allocations: 31911)
+Completed 200 OK in 151ms (Views: 135.2ms | ActiveRecord: 0.0ms | Allocations: 32498)
+
+
+Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-10-01 17:03:41 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
+  
+Started GET "/users/sign_in" for ::1 at 2023-10-01 17:03:43 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 23.8ms | Allocations: 27422)
+  Rendered layouts/_header.html.haml (Duration: 0.0ms | Allocations: 12)
+  Rendered layouts/_messages.html.haml (Duration: 0.0ms | Allocations: 20)
+  Rendered layout layouts/application.html.haml (Duration: 26.9ms | Allocations: 31911)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.0ms | Allocations: 32507)
+
+
+Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-10-01 17:03:43 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
+  
+Started GET "/users/sign_in" for ::1 at 2023-10-01 17:16:37 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 162.0ms | Allocations: 19570)
+  Rendered layout layouts/application.html.haml (Duration: 162.2ms | Allocations: 19680)
+Completed 500 Internal Server Error in 346ms (ActiveRecord: 0.2ms | Allocations: 309011)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap-sass/bootstrap/variables.
+        on line 3:1 of app/assets/stylesheets/application.scss
+>> @import "bootstrap-sass/bootstrap/variables";
+
+   ^
+):
+    1: <%= stylesheet_link_tag 'application' %>
+    2: <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+    3:   <div class="form-inputs">
+    4:     <%= f.input :email,
+  
+app/assets/stylesheets/application.scss:3
+app/views/devise/sessions/new.html.erb:1
+Started GET "/users/sign_in" for ::1 at 2023-10-01 17:17:34 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 399.1ms | Allocations: 19139)
+  Rendered layout layouts/application.html.haml (Duration: 399.3ms | Allocations: 19219)
+Completed 500 Internal Server Error in 403ms (ActiveRecord: 0.0ms | Allocations: 19923)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap-sass/bootstrap.
+        on line 7:1 of app/assets/stylesheets/application.scss
+>> @import "bootstrap-sass/bootstrap";
+
+   ^
+):
+    1: <%= stylesheet_link_tag 'application' %>
+    2: <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+    3:   <div class="form-inputs">
+    4:     <%= f.input :email,
+  
+app/assets/stylesheets/application.scss:7
+app/views/devise/sessions/new.html.erb:1
+Started GET "/users/sign_in" for ::1 at 2023-10-01 17:17:42 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1383.6ms | Allocations: 244167)
+  Rendered layout layouts/application.html.haml (Duration: 1383.8ms | Allocations: 244247)
+Completed 500 Internal Server Error in 1388ms (ActiveRecord: 0.0ms | Allocations: 244827)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+    1: <%= stylesheet_link_tag 'application' %>
+    2: <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+    3:   <div class="form-inputs">
+    4:     <%= f.input :email,
+  
+app/views/devise/sessions/new.html.erb:1
+Started GET "/courses" for ::1 at 2023-10-01 17:18:06 +0300
+Processing by CoursesController#index as HTML
+Completed 401 Unauthorized in 6ms (ActiveRecord: 0.0ms | Allocations: 478)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-10-01 17:18:45 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 5.3ms | Allocations: 734)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 856.9ms | Allocations: 88347)
+  Rendered layouts/_header.html.haml (Duration: 15.6ms | Allocations: 17221)
+  Rendered layouts/_messages.html.haml (Duration: 8.8ms | Allocations: 5952)
+  Rendered layout layouts/application.html.haml (Duration: 934.0ms | Allocations: 127859)
+Completed 200 OK in 1027ms (Views: 956.7ms | ActiveRecord: 0.0ms | Allocations: 128709)
+
+
+Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-10-01 17:18:47 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
+  
+Started GET "/users/sign_in" for ::1 at 2023-10-01 17:27:05 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 132)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1311.4ms | Allocations: 98203)
+  Rendered layouts/_header.html.haml (Duration: 0.0ms | Allocations: 14)
+  Rendered layouts/_messages.html.haml (Duration: 0.0ms | Allocations: 26)
+  Rendered layout layouts/application.html.haml (Duration: 1319.7ms | Allocations: 102676)
+Completed 200 OK in 1338ms (Views: 1324.6ms | ActiveRecord: 0.0ms | Allocations: 103342)
+
+
+Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-10-01 17:27:07 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
+  
+Started GET "/users/sign_in" for ::1 at 2023-10-01 17:27:23 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 44.3ms | Allocations: 28303)
+  Rendered layouts/_header.html.haml (Duration: 0.0ms | Allocations: 12)
+  Rendered layouts/_messages.html.haml (Duration: 0.0ms | Allocations: 20)
+  Rendered layout layouts/application.html.haml (Duration: 49.4ms | Allocations: 32691)
+Completed 200 OK in 53ms (Views: 50.1ms | ActiveRecord: 0.0ms | Allocations: 33329)
+
+
+Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-10-01 17:27:23 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
+  
+Started GET "/users/sign_in" for ::1 at 2023-10-01 17:28:03 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.7ms | Allocations: 544)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 46.1ms | Allocations: 29497)
+  Rendered layouts/_header.html.haml (Duration: 7.5ms | Allocations: 17168)
+  Rendered layouts/_messages.html.haml (Duration: 3.2ms | Allocations: 5806)
+  Rendered layout layouts/application.html.haml (Duration: 71.4ms | Allocations: 63422)
+Completed 200 OK in 87ms (Views: 84.3ms | ActiveRecord: 0.0ms | Allocations: 64936)
+
+
+Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-10-01 17:28:03 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
+  
+Started GET "/users/sign_in" for ::1 at 2023-10-01 17:28:05 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 21.1ms | Allocations: 28355)
+  Rendered layouts/_header.html.haml (Duration: 0.0ms | Allocations: 12)
+  Rendered layouts/_messages.html.haml (Duration: 0.0ms | Allocations: 20)
+  Rendered layout layouts/application.html.haml (Duration: 24.3ms | Allocations: 32806)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms | Allocations: 33470)
+
+
+Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-10-01 17:28:05 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
+  
+Started GET "/users/sign_in" for ::1 at 2023-10-01 17:32:43 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1207.7ms | Allocations: 97883)
+  Rendered layouts/_header.html.haml (Duration: 0.2ms | Allocations: 12)
+  Rendered layouts/_messages.html.haml (Duration: 0.0ms | Allocations: 20)
+  Rendered layout layouts/application.html.haml (Duration: 1216.6ms | Allocations: 102335)
+Completed 200 OK in 1235ms (Views: 1222.4ms | ActiveRecord: 0.0ms | Allocations: 102927)
+
+
+Started GET "/docs/5.3/assets/brand/bootstrap-logo.svg" for ::1 at 2023-10-01 17:32:45 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/5.3/assets/brand/bootstrap-logo.svg"):
+  

@@ -1,6 +1,10 @@
-@import "bootstrap";
 @import "bootstrap-sprockets";
+@import "bootstrap";
+// @import "bootstrap-sass/bootstrap/variables";
+// @import "bootstrap-sass/bootstrap/mixins";
+// @import "bootstrap-sass/bootstrap/carousel";
 @import "font-awesome";
+// @import "bootstrap-sass/bootstrap";
 // @import 'actiontext.css';
 /* Navbar container */
 .navbar {
@@ -11,12 +15,33 @@
 .navbar-nav li.nav-item {
   margin-right: 15px; // Margin between nav items
   // Customize link styles
+  list-style: none;
   a.nav-link {
     color: #333; // Text color
     // Add more styles as needed
   }
 }
+.navbar .navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+/* Add margin-right to the navbar-nav to push it to the left */
+.navbar-nav {
+  margin-right: auto;
+}
+
+/* Style the search form */
+.form-inline .form-control {
+  width: 100%;
+  max-width: 300px; /* Adjust the width as needed */
+}
+
+/* Optional: Add margin to the search button for spacing */
+.form-inline .btn {
+  margin-left: 5px; /* Adjust the margin as needed */
+}
 /* Navbar links - Active state */
 .navbar-nav li.nav-item.active a.nav-link {
   color: #fff; // Text color
