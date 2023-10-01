@@ -107,6 +107,8 @@ GEM
     ffi (1.16.2)
     font-awesome-sass (6.4.2)
       sassc (~> 2.0)
+    friendly_id (5.4.2)
+      activerecord (>= 4.0.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
     haml (6.2.0)
@@ -292,6 +294,7 @@ DEPENDENCIES
   devise
   faker
   font-awesome-sass (~> 6.4.2)
+  friendly_id (~> 5.4.0)
   haml-rails (~> 2.0)
   html2haml
   image_processing (~> 1.2)

@@ -39,6 +39,7 @@ gem "font-awesome-sass", "~> 6.4.2"
 gem 'faker'
 gem 'devise'
 gem "rolify"
+gem 'friendly_id', '~> 5.4.0'
 
 
 

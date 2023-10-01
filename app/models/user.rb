@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  extend FriendlyId
+  friendly_id :email, use: :slugged
   rolify
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
@@ -7,6 +9,7 @@ class User < ApplicationRecord
   validates_uniqueness_of :email, case_sensitive: false
   has_many :courses
   after_create :assign_default_role
+  validate :must_have_a_role, on: :update
 
   def assign_default_role
     if User.count == 1
@@ -25,5 +28,12 @@ class User < ApplicationRecord
 
   def username
     email.split(/@/).first
+  end
+
+  private
+  def must_have_a_role
+    unless roles.any?
+      errors.add(:roles, "must have at least one role")
+    end
   end
 end
