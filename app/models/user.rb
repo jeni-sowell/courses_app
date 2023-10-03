@@ -30,6 +30,10 @@ class User < ApplicationRecord
     email.split(/@/).first
   end
 
+  def online?
+    updated_at > 2.minutes.ago
+  end
+
   private
   def must_have_a_role
     unless roles.any?
