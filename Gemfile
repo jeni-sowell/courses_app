@@ -40,6 +40,9 @@ gem 'faker'
 gem 'devise'
 gem "rolify"
 gem 'friendly_id', '~> 5.4.0'
+gem 'public_activity' # see all activity in the app
+
+gem 'omniauth-google-oauth2'
 
 
 
